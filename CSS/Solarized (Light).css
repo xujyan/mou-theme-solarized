@@ -7,7 +7,6 @@ h4,
 h5,
 h6,
 p,
-blockquote,
 ol,
 ul,
 li,
@@ -166,4 +165,18 @@ html h4,
 html h5,
 html h6 {
   color: #b58900;
+}
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777;
+  margin: 15px 0; 
+}
+
+blockquote > :first-child {
+  margin-top: 0;
+}
+blockquote > :last-child {
+  margin-bottom: 0;
 }
